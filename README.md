@@ -1,19 +1,6 @@
 # PortVulnScanner
 A comprehensive toolkit and knowledge base focused on the security risks, usage, and monitoring of critical network ports, including 135 (RPC), 139 (NetBIOS/SMB), 445 (SMB over TCP), and 903 (VMware Remote Console).
 
-nmap tcp synscan
-C:\Users\sunil>nmap -sS 192.168.31.19
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-04 18:59 India Standard Time
-Nmap scan report for SunilVijay.lan (192.168.31.19)
-Host is up (0.00029s latency).
-Not shown: 996 closed tcp ports (reset)
-PORT    STATE SERVICE
-135/tcp open  msrpc
-139/tcp open  netbios-ssn
-445/tcp open  microsoft-ds
-903/tcp open  iss-console-mgr
-
-Nmap done: 1 IP address (1 host up) scanned in 0.80 seconds
 
 These ports play essential roles in Windows and virtualization environments but also represent significant attack surfaces frequently targeted by malware, ransomware, and threat actors for remote code execution, data breaches, and lateral movement within networks.
 
